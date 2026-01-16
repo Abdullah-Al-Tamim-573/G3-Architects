@@ -87,6 +87,7 @@ header {
   padding: 20px 24px;
   font-weight: 600;
   color: #fff;
+  font-size: 1.1rem;
 }
 
 /* Brand New Group of Architects section end */
@@ -100,7 +101,48 @@ header {
 
 /* header part end */
 
+/* main section start */
 
+/* Four image and Quick list of Our Features part main section start */
+
+#four-image-and-quick-list-of-Our-Features-main-section {
+    max-width: 80%;
+    margin: 80px auto;
+}
+
+/* Quick list of Our Features text and btn part start */
+#quick-list-of-Our-Features-main-parent {
+}
+#quick-list-of-Our-Features-main-parent .quick-list-title h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #727272;
+}
+
+.op-our-text {
+  color: #131313;
+  font-weight: bold;
+}
+.features-text {
+  color: #ff900e;
+  font-weight: bold;
+}
+
+#quick-list-of-Our-Features-main-parent .explore-more-btn button {
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 24px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* Quick list of Our Features text and btn part end */
+
+/* Four image and Quick list of Our Features part main section end */
+
+/* main section end */
 
 /* tablet responsive */
 @media screen and (max-width: 820px) {
