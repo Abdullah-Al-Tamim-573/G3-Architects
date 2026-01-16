@@ -53,9 +53,42 @@
         font-size: 1.1rem;
     }
 
-
-
 /* navbar part end */
+
+/* Brand New Group of Architects section start */
+
+ #brand-new-group-of-architects-main-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 860px;
+    margin: 100px auto 0px auto;
+ }
+     
+   .banner-big-text h2{
+        font-size: 4rem;
+        text-align: center;
+
+   }
+
+   .banner-small-description p {
+    color: #727272;
+    text-align: center;
+   }
+   .banner-explore-more-btn {
+    text-align: center;
+   }
+   .banner-explore-more-btn button {
+     background-color: #FF900E;
+     border-radius: 8px;
+     border: none;
+     padding: 20px 24px;
+     font-weight: 600;
+     color: #fff;
+   }
+
+
+/* Brand New Group of Architects section end */
 
 /* header part end */
 
