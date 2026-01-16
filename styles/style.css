@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .work-sans {
@@ -10,98 +10,157 @@
 }
 
 /* shared style start */
-     
-/* shared style end */
 
+/* shared style end */
 
 /* header part start */
 
 header {
-     background-color: #fff4e7;
+  background-color: #fff4e7;
 }
 
 /* Total nav text Brand-New-Group of architects and banner img main parent */
 #total-nav-text-brand-new-group-of-architects-and-banner-img-main-parent {
-    max-width: 80%;
-    margin: 0px auto;
-    padding-top: 45px;
+  max-width: 80%;
+  margin: 0px auto;
+  padding-top: 45px;
 }
-  
+
 /* navbar part start */
-    
-   .navbar {
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid ; */
-    align-items: center;
-    
-   }
-  /* brand name */
-    .navbar .nav-brand-name h3 {
-          font-size: 2.3rem;
-    }
 
-    /* nav lists */
-    .navbar .nav-links ul {
-        display: flex;
-        gap: 50px;
-        align-items: center;
-    } 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid ; */
+  align-items: center;
+}
+/* brand name */
+.navbar .nav-brand-name h3 {
+  font-size: 2.3rem;
+}
 
-    .navbar .nav-links li {
-        list-style: none;
-    } 
+/* nav lists */
+.navbar .nav-links ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
 
-    .navbar .nav-links ul li a {
-        text-decoration: none;
-        color: #424242;
-        font-size: 1.1rem;
-    }
+.navbar .nav-links li {
+  list-style: none;
+}
+
+.navbar .nav-links ul li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1.1rem;
+}
 
 /* navbar part end */
 
 /* Brand New Group of Architects section start */
 
- #brand-new-group-of-architects-main-parent {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 860px;
-    margin: 100px auto 0px auto;
- }
-     
-   .banner-big-text h2{
-        font-size: 4rem;
-        text-align: center;
+#brand-new-group-of-architects-main-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 860px;
+  margin: 100px auto 0px auto;
+}
 
-   }
+.banner-big-text h2 {
+  font-size: 4rem;
+  text-align: center;
+}
 
-   .banner-small-description p {
-    color: #727272;
-    text-align: center;
-   }
-   .banner-explore-more-btn {
-    text-align: center;
-   }
-   .banner-explore-more-btn button {
-     background-color: #FF900E;
-     border-radius: 8px;
-     border: none;
-     padding: 20px 24px;
-     font-weight: 600;
-     color: #fff;
-   }
-
+.banner-small-description p {
+  color: #727272;
+  text-align: center;
+}
+.banner-explore-more-btn {
+  text-align: center;
+}
+.banner-explore-more-btn button {
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 24px;
+  font-weight: 600;
+  color: #fff;
+}
 
 /* Brand New Group of Architects section end */
 
 /* Banner Image Section Start */
 #banner-big-img-main-parent .banner-img img {
-    width: 100%;
-    margin: 50px 0px;
-    
+  width: 100%;
+  margin: 50px 0px;
 }
 /* Banner Image Section end */
 
 /* header part end */
 
+
+
+/* tablet responsive */
+@media screen and (max-width: 820px) {
+  /* responsive navbar start */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* responsive navbar end */
+
+  /* responsive Brand New Group of Architects section start */
+
+  #brand-new-group-of-architects-main-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 860px;
+    margin: 40px auto 0px auto;
+  }
+
+  .banner-big-text h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  /* responsive Brand New Group of Architects section end */
+}
+
+/* small device responsive */
+@media screen and (max-width: 492px) {
+  /* responsive navbar start */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* responsive navbar end */
+
+  /* responsive Brand New Group of Architects section start */
+
+  #brand-new-group-of-architects-main-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 860px;
+    margin: 40px auto 0px auto;
+  }
+
+  .banner-big-text h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  /* responsive Brand New Group of Architects section end */
+}
