@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* shared style start */
+     
+/* shared style end */
+
+
+/* header part start */
+
+/* Total nav text Brand-New-Group of architects and banner img main parent */
+#total-nav-text-brand-new-group-of-architects-and-banner-img-main-parent {
+    max-width: 80%;
+    margin: 45px auto;
+}
+  
+/* navbar part start */
+    
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid ; */
+    align-items: center;
+    
+   }
+  /* brand name */
+    .navbar .nav-brand-name h3 {
+          font-size: 2.3rem;
+    }
+
+    /* nav lists */
+    .navbar .nav-links ul {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    } 
+
+    .navbar .nav-links li {
+        list-style: none;
+    } 
+
+    .navbar .nav-links ul li a {
+        text-decoration: none;
+        color: #424242;
+        font-size: 1.1rem;
+    }
+
+
+
+/* navbar part end */
+
+/* header part end */
+
