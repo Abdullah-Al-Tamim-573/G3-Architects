@@ -16,10 +16,15 @@
 
 /* header part start */
 
+header {
+     background-color: #fff4e7;
+}
+
 /* Total nav text Brand-New-Group of architects and banner img main parent */
 #total-nav-text-brand-new-group-of-architects-and-banner-img-main-parent {
     max-width: 80%;
-    margin: 45px auto;
+    margin: 0px auto;
+    padding-top: 45px;
 }
   
 /* navbar part start */
@@ -89,6 +94,14 @@
 
 
 /* Brand New Group of Architects section end */
+
+/* Banner Image Section Start */
+#banner-big-img-main-parent .banner-img img {
+    width: 100%;
+    margin: 50px 0px;
+    
+}
+/* Banner Image Section end */
 
 /* header part end */
 
