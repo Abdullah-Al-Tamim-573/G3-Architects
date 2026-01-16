@@ -134,7 +134,7 @@ header {
   gap: 30px;
 }
 #quick-list-of-Our-Features-main-parent .quick-list-title h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #727272;
 }
@@ -227,6 +227,11 @@ header {
     font-size: 2rem;
     font-weight: 500;
     color: #727272;
+    text-align: center;
+  }
+
+   #quick-list-of-Our-Features-main-parent .quick-list-discription {
+    text-align: center;
   }
 
   #quick-list-of-Our-Features-main-parent .explore-more-btn button {
@@ -237,6 +242,9 @@ header {
     font-weight: 600;
     color: #fff;
     font-size: 1.1rem;
+  }
+  #quick-list-of-Our-Features-main-parent .explore-more-btn  {
+   text-align: center;
   }
 
   /* Quick list of Our Features text and btn part end */
@@ -311,19 +319,15 @@ header {
     justify-content: center;
   }
   #quick-list-of-Our-Features-main-parent .quick-list-title h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #727272;
+    text-align: center;
   }
 
-  #quick-list-of-Our-Features-main-parent .explore-more-btn button {
-    background-color: #ff900e;
-    border-radius: 8px;
-    border: none;
-    padding: 19px 24px;
-    font-weight: 600;
-    color: #fff;
-    font-size: 1.1rem;
+  #quick-list-of-Our-Features-main-parent .quick-list-discription {
+    text-align: center;
+  }
+
+  #quick-list-of-Our-Features-main-parent .explore-more-btn  {
+    text-align: center;
   }
 
   /* Quick list of Our Features text and btn part end */
