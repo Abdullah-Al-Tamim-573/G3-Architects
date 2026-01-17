@@ -284,6 +284,43 @@ header {
 
 /* Some Facts and 4 box achievement section end */
 
+/* Our Sponsors part and sponsors images part start */
+
+#our-sponsors-part-and-sponsors-image-main-parent {
+  max-width: 80%;
+  margin: 0 auto;
+}
+  
+/* our sponsors text part*/
+#our-sponsors-text-part-main-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#our-sponsors-text-part-main-parent .Our-Sponspors-text{
+ font-size: 2.5rem;
+ margin-top: 20px;
+ text-align: center;
+}
+#our-sponsors-text-part-main-parent .Our-Sponspors-description{
+   color: #727272;
+   text-align: center;
+}
+
+/* our sponsors 5 image part */
+#our-sponsors-image-part-main-parent {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  align-items: center;
+}
+#our-sponsors-image-part-main-parent .image img{
+   filter: grayscale(100%);
+   width: 60%;
+}
+
+/* Our Sponsors part and sponsors images part end */
+
 /* main section end */
 
 /* tablet responsive */
@@ -455,6 +492,11 @@ header {
     font-size: 1rem;
   }
   /* Some Facts and 4 box achievement section end */
+
+  #our-sponsors-image-part-main-parent .image img{
+   
+   width: 70%;
+}
 
   /* main section end */
 }
