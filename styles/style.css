@@ -162,79 +162,77 @@ header {
 
 /* Four image and Quick list of Our Features part main section end */
 
-
 /* Features you will love & enjoy and big image part main parent start */
- 
- #features-you-will-love-and-enjoy-and-big-image-part-main-parent {
-   display: flex;
-   max-width: 80%;
-   margin: 80px auto;
-   gap: 130px;
-   align-items: center;
-   justify-content: center;
- }
 
+#features-you-will-love-and-enjoy-and-big-image-part-main-parent {
+  display: flex;
+  max-width: 80%;
+  margin: 80px auto;
+  gap: 130px;
+  align-items: center;
+  justify-content: center;
+}
 
- #features-you-will-love-and-enjoy-and-big-image-part-main-parent .feature-love-title h3{
-     font-size: 2.5rem;
-     
- }
+#features-you-will-love-and-enjoy-and-big-image-part-main-parent
+  .feature-love-title
+  h3 {
+  font-size: 2.5rem;
+  border-left: 5px solid #ff900e;
+  padding-left: 1.2rem;
+}
 
+#features-you-will-love-and-enjoy-and-big-image-part-main-parent
+  .feature-love-short-description
+  p {
+  color: #727272;
+}
+#features-you-will-love-and-enjoy-and-big-image-part-main-parent
+  .feature-love-short-description {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
 
- #features-you-will-love-and-enjoy-and-big-image-part-main-parent .feature-love-short-description p {
-     color: #727272;
- }
- #features-you-will-love-and-enjoy-and-big-image-part-main-parent .feature-love-short-description {
-     margin-top: 24px;
-     margin-bottom: 30px;
- }
+/* feature love and enjoy 4 box part */
+.box {
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px rgb(203, 202, 202);
+  max-width: 500px;
+}
 
- /* feature love and enjoy 4 box part */
- .box {
-     
-     padding: 20px 40px;
-     border-radius: 8px;
-     margin-bottom: 20px;
-     box-shadow: 0px 4px 4px rgb(203, 202, 202);
-     max-width: 500px;
- }
+.box h4 {
+  font-size: 1.2rem;
+}
 
- .box h4 {
-     font-size: 1.2rem;
- }
+/* feature love image */
 
+#features-love-and-enjoy-part-big-img-container .features-love-big-image {
+  width: 33rem;
+}
+#features-love-and-enjoy-part-big-img-container .features-love-big-image img {
+  width: 100%;
+}
 
- /* feature love image */
+/* 10 years of experience btn */
 
- #features-love-and-enjoy-part-big-img-container .features-love-big-image   {
-    width: 33rem;
- }
- #features-love-and-enjoy-part-big-img-container .features-love-big-image  img {
-    width: 100%;
- }
-
- /* 10 years of experience btn */
-
- .ten-years-of-experiense-btn {
-    background-color: #FF900E;
-    color: #fff;
-    padding: 45px;
-    border: none;
-    border-radius: 8px;
-    position: relative;
-    top: -85px;
-    right: 70px;
- }
- .ten-years-of-experiense-btn .ten-year {
-   font-weight: bold;
-   font-size: 4rem;
- }
- .ten-years-of-experiense-btn .experience {
-    font-size: 1.5rem;
-
- }
-
-
+.ten-years-of-experiense-btn {
+  background-color: #ff900e;
+  color: #fff;
+  padding: 45px;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  top: -85px;
+  right: 70px;
+}
+.ten-years-of-experiense-btn .ten-year {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.ten-years-of-experiense-btn .experience {
+  font-size: 1.5rem;
+}
 
 /* Features you will love & enjoy and big image part main parent end */
 
@@ -245,48 +243,46 @@ header {
   margin: 0 auto;
 }
 
- /* some fact text */
-   #some-facts-text-section-main-parent .some-facts-text {
-      font-size: 2.5rem;
-   }
+/* some fact text */
+#some-facts-text-section-main-parent .some-facts-text {
+  font-size: 2.5rem;
+}
 
-   /* some fact description */
-   #some-facts-text-section-main-parent .some-facts-small-description {
-      color: #727272;
-   }
+/* some fact description */
+#some-facts-text-section-main-parent .some-facts-small-description {
+  color: #727272;
+}
 
+/* 4  achievement box */
+#four-achievement-box-main-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  margin-bottom: 50px;
+}
+#four-achievement-box-main-parent .achievement-box {
+  border: 2px solid #ff9;
+  border-radius: 8px;
+  padding: 40px 30px 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 80px;
+}
 
-   /* 4  achievement box */
-   #four-achievement-box-main-parent {
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     gap: 60px;
-     margin-bottom: 50px;
-   }
-   #four-achievement-box-main-parent .achievement-box{
-        border: 2px solid #FF9;
-        border-radius: 8px;
-        padding: 40px 30px 50px 35px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        margin-top: 80px;
+.achievement-box .achievement-score {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #424242;
+}
+.achievement-box .achievements {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 
-   }
- /* .achievement-box img {
-     width: 100%;
- } */
- .achievement-box .achievement-score {
-
- }
- .achievement-box .achievements {
-
- }
-
-
- /* Some Facts and 4 box achievement section end */
+/* Some Facts and 4 box achievement section end */
 
 /* main section end */
 
@@ -356,7 +352,7 @@ header {
     text-align: center;
   }
 
-   #quick-list-of-Our-Features-main-parent .quick-list-discription {
+  #quick-list-of-Our-Features-main-parent .quick-list-discription {
     text-align: center;
   }
 
@@ -369,8 +365,8 @@ header {
     color: #fff;
     font-size: 1.1rem;
   }
-  #quick-list-of-Our-Features-main-parent .explore-more-btn  {
-   text-align: center;
+  #quick-list-of-Our-Features-main-parent .explore-more-btn {
+    text-align: center;
   }
 
   /* Quick list of Our Features text and btn part end */
@@ -378,28 +374,28 @@ header {
   /* Four image and Quick list of Our Features part main section end */
 
   /* Features you will love & enjoy and big image part main parent start */
- 
- #features-you-will-love-and-enjoy-and-big-image-part-main-parent {
-   display: flex;
-   max-width: 80%;
-   margin: 80px auto;
-   flex-direction: column;
-   gap: 30px;
-   align-items: center;
-   justify-content: center;
- }
 
- /* feature love image */
+  #features-you-will-love-and-enjoy-and-big-image-part-main-parent {
+    display: flex;
+    max-width: 80%;
+    margin: 80px auto;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
 
- #features-love-and-enjoy-part-big-img-container .features-love-big-image   {
+  /* feature love image */
+
+  #features-love-and-enjoy-part-big-img-container .features-love-big-image {
     width: 23rem;
- }
- #features-love-and-enjoy-part-big-img-container .features-love-big-image  img {
+  }
+  #features-love-and-enjoy-part-big-img-container .features-love-big-image img {
     width: 100%;
- }
-/* 10 years of experience btn */
+  }
+  /* 10 years of experience btn */
   .ten-years-of-experiense-btn {
-    background-color: #FF900E;
+    background-color: #ff900e;
     color: #fff;
     padding: 35px;
     border: none;
@@ -407,32 +403,58 @@ header {
     position: relative;
     top: -55px;
     right: -60px;
- }
+  }
 
- .ten-years-of-experiense-btn .ten-year {
-   font-weight: bold;
-   font-size: 3rem;
- }
- .ten-years-of-experiense-btn .experience {
+  .ten-years-of-experiense-btn .ten-year {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .ten-years-of-experiense-btn .experience {
     font-size: 1.5rem;
+  }
 
- }
+  /* Features you will love & enjoy and big image part main parent end */
 
- /* Features you will love & enjoy and big image part main parent end */
+  /* Some Facts and 4 box achievement section start */
 
+  /* some fact text */
+  #some-facts-text-section-main-parent .some-facts-text {
+    font-size: 2.5rem;
+  }
 
- /* Some Facts and 4 box achievement section start */
+  /* some fact description */
+  #some-facts-text-section-main-parent .some-facts-small-description {
+  }
 
- /* some fact text */
-   #some-facts-text-section-main-parent .some-facts-text {
-      font-size: 2.5rem;
-   }
+  /* 4  achievement box */
+  #four-achievement-box-main-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-bottom: 50px;
+  }
+  #four-achievement-box-main-parent .achievement-box {
+    border: 2px solid #ff9;
+    border-radius: 8px;
+    padding: 40px 30px 50px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
 
-   /* some fact description */
-   #some-facts-text-section-main-parent .some-facts-small-description {
-     
-   }
- /* Some Facts and 4 box achievement section end */
+  .achievement-box .achievement-score {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #424242;
+  }
+  .achievement-box .achievements {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  /* Some Facts and 4 box achievement section end */
 
   /* main section end */
 }
@@ -509,13 +531,45 @@ header {
     text-align: center;
   }
 
-  #quick-list-of-Our-Features-main-parent .explore-more-btn  {
+  #quick-list-of-Our-Features-main-parent .explore-more-btn {
     text-align: center;
   }
 
   /* Quick list of Our Features text and btn part end */
 
   /* Four image and Quick list of Our Features part main section end */
+
+
+
+  /* 4  achievement box */
+   #four-achievement-box-main-parent {
+     
+     grid-template-columns: repeat(1, 1fr);
+     gap: 5px;
+     margin-bottom: 0px;
+   }
+   #four-achievement-box-main-parent .achievement-box{
+        border: 2px solid #FF9;
+        border-radius: 8px;
+        padding: 40px 30px 50px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 60px;
+
+   }
+ 
+ .achievement-box .achievement-score {
+   font-weight: bold;
+   font-size: 2.5rem;
+   color: #424242;
+ }
+ .achievement-box .achievements {
+      font-weight: 600;
+      font-size: 1.2rem;
+ }
 
   /* main section end */
 }
