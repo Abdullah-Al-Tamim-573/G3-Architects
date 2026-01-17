@@ -238,6 +238,56 @@ header {
 
 /* Features you will love & enjoy and big image part main parent end */
 
+/* Some Facts and 4 box achievement section start */
+
+#some-facts-and-achievement-main-parent {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ /* some fact text */
+   #some-facts-text-section-main-parent .some-facts-text {
+      font-size: 2.5rem;
+   }
+
+   /* some fact description */
+   #some-facts-text-section-main-parent .some-facts-small-description {
+      color: #727272;
+   }
+
+
+   /* 4  achievement box */
+   #four-achievement-box-main-parent {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 60px;
+     margin-bottom: 50px;
+   }
+   #four-achievement-box-main-parent .achievement-box{
+        border: 2px solid #FF9;
+        border-radius: 8px;
+        padding: 40px 30px 50px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 80px;
+
+   }
+ /* .achievement-box img {
+     width: 100%;
+ } */
+ .achievement-box .achievement-score {
+
+ }
+ .achievement-box .achievements {
+
+ }
+
+
+ /* Some Facts and 4 box achievement section end */
+
 /* main section end */
 
 /* tablet responsive */
@@ -369,6 +419,20 @@ header {
  }
 
  /* Features you will love & enjoy and big image part main parent end */
+
+
+ /* Some Facts and 4 box achievement section start */
+
+ /* some fact text */
+   #some-facts-text-section-main-parent .some-facts-text {
+      font-size: 2.5rem;
+   }
+
+   /* some fact description */
+   #some-facts-text-section-main-parent .some-facts-small-description {
+     
+   }
+ /* Some Facts and 4 box achievement section end */
 
   /* main section end */
 }
