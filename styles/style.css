@@ -162,6 +162,29 @@ header {
 
 /* Four image and Quick list of Our Features part main section end */
 
+
+/* Features you will love & enjoy and big image part main parent start */
+ 
+ #features-you-will-love-and-enjoy-and-big-image-part-main-parent {
+
+ }
+
+ #features-you-will-love-and-enjoy-and-big-image-part-main-parent .feature-love-title h3{
+     font-size: 2.5rem;
+     
+ }
+
+ #features-you-will-love-and-enjoy-and-big-image-part-main-parent .feature-love-short-description p {
+     color: #727272;
+ }
+
+ /* feature love and enjoy 4 box part */
+ .box {
+     border : 2px solid;
+ }
+
+/* Features you will love & enjoy and big image part main parent end */
+
 /* main section end */
 
 /* tablet responsive */
