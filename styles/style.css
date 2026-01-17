@@ -323,6 +323,21 @@ header {
 
 /* main section end */
 
+
+/* footer part start */
+    #All-rights-main-parent {
+      max-width: 80%;
+      margin: 160px auto;
+      background-color: #FFF4E7;
+      padding: 38px;
+    }
+
+    .All-rights-text {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+/* footer part end */
+
 /* tablet responsive */
 @media screen and (max-width: 1045px) {
   /* responsive navbar start */
@@ -499,6 +514,21 @@ header {
 }
 
   /* main section end */
+
+
+  /* footer part start */
+    #All-rights-main-parent {
+      max-width: 80%;
+      margin: 40px auto;
+      background-color: #FFF4E7;
+      padding: 38px;
+    }
+
+    .All-rights-text {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+/* footer part end */
 }
 
 /* small device responsive */
